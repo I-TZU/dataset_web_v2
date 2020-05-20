@@ -1,0 +1,174 @@
+html {
+  font-family: 'Rubik', sans-serif;
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  
+}
+
+#header{
+  width: 100%;
+  background-color: #99FF4D;
+  color: #008000;
+  position: fixed;
+  
+  
+  
+  
+}
+
+#header div {
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#nav {
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    background-color: #008000;
+    color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+    top: 40px;
+    text-align: center;
+    font-size: 0;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer; /* 游標造型 */
+    transition: 1s;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 40px;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #90EE90;
+    color: #000000;
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #FFFFFF; /* #90EE90 */
+    color: #000000;
+  }	
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #008000;
+  color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  
+  top: 40px;
+  text-align: center;
+  font-size: 0;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer; /* 游標造型 */
+  padding: 0px 12px;
+  transition: 0.5s;
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 30px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #90EE90;
+  color: #000000;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #FFFFFF; /* #90EE90 */
+  color: #000000;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+}
+
+
+
+
+
+
+div.fixed {
+  position: fixed;
+  top: 70px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.parent {
+  display: flex;
+  height: 100%;
+}
+
+.child {
+  padding: 20px;
+  line-height: 1em;
+}
+
+#aside {
+  flex-basis: 5em;
+  background-image: url('../images/tomato_2.jpeg');
+  background-size: contain;
+  
+}
+#section {
+  flex-grow: 1;
+  background-color: #FFFFFF;
+  overflow: auto;
+}
+
+
+
+
+
+
+h2.middle-title {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  text-shadow: #8FBC8F 0.1em 0.1em 0.2em;
+  font-style: italic;
+}
+
+section p {
+  text-indent: 2em; /* 後退兩字元 */
+}
+
+
+
+
+
+
+
+
+
+
