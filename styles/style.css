@@ -1,7 +1,6 @@
 html {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif, "微軟正黑體";
 }
-
 
 body{
   width: 100%;
@@ -15,10 +14,6 @@ body{
   background-color: #99FF4D;
   color: #008000;
   position: fixed;
-  
-  
-  
-  
 }
 
 #header div {
@@ -29,43 +24,8 @@ body{
   font-weight: bold;
 }
 
-#nav {
-  /* Style the tab */
-  .tab {
-    overflow: hidden;
-    background-color: #008000;
-    color: #FFFFFF;
-    position: fixed;
-    width: 100%;
-    top: 40px;
-    text-align: center;
-    font-size: 0;
-  }
 
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
-    background-color: inherit;
-    border: none;
-    outline: none;
-    cursor: pointer; /* 游標造型 */
-    transition: 1s;
-    color: #FFFFFF;
-    font-size: 20px;
-    height: 40px;
-  }
 
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #90EE90;
-    color: #000000;
-  }
-
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #FFFFFF; /* #90EE90 */
-    color: #000000;
-  }	
-}
 
 /* Style the tab */
 .tab {
@@ -91,6 +51,8 @@ body{
   color: #FFFFFF;
   font-size: 16px;
   height: 30px;
+  
+  font-family : inherit; /* 繼承html設定的字型 */
 }
 
 /* Change background color of buttons on hover */
@@ -159,12 +121,81 @@ h2.middle-title {
   font-style: italic;
 }
 
-section p {
+h3.little-title {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
   text-indent: 2em; /* 後退兩字元 */
 }
 
+section p {
+  font-size: 14px;
+  text-indent: 4em; /* 後退四字元 */
+}
+
+section ul {
+  font-size: 14px;
+  text-indent: 4em; /* 後退四字元 */
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  
+  margin: 0;
+  padding: 0;
+}
+
+.Parrot-parent {
+  margin-left: 50px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #CCCCCC; */
+}
+
+.Parrot-parent p {
+  text-indent: 0em;
+  text-align: center;
+}
+
+.Parrot-parent ul {
+  text-indent: 2em;
+  /* text-align: center; */
+  
+  display: inline-block; /* for垂直置中 */
+  line-height: 1.5; /* for垂直置中 */
+  /* background: #AAA; */
+  vertical-align: middle; /* for垂直置中 */
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+}
+
+.info{
+  flex-grow: 1;
+  height: 200px;
+  
+  line-height: 200px; /* for垂直置中 */
+  display: none;
+}
 
 
+img {
+  width: 150px;
+  height: 150px;
+  opacity: 0.3;
+}
+
+img:hover {
+  width: 150px;
+  height: 150px;
+  opacity: 1.0;
+}
+
+img.active {
+  opacity: 1.0;
+}
 
 
 
