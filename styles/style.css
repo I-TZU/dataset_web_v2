@@ -192,7 +192,7 @@ span.blue {
 
 .sampleInner-topL {
   flex-grow: 1;
-  background-color: #888888;
+  /* background-color: #888888; */
   
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
@@ -201,7 +201,7 @@ span.blue {
 
 .sampleInner-topR {
   flex-grow: 1;
-  background-color: #AAAAAA;
+  /* background-color: #AAAAAA; */
   
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
@@ -211,7 +211,7 @@ span.blue {
 .sampleInner-down {
   flex-grow: 1;
   height: 350px;
-  background-color: #EEEEEE;
+  /* background-color: #EEEEEE; */
   
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
