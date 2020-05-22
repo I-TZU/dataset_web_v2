@@ -199,6 +199,8 @@ span.blue {
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
   align-items: center; /* 圖片置中 */
+  
+  width: 100%;
 }
 
 .sampleInner-topR {
@@ -208,6 +210,8 @@ span.blue {
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
   align-items: center; /* 圖片置中 */
+  
+  width: 100%;
 }
 
 .sampleInner-down {
@@ -218,6 +222,8 @@ span.blue {
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
   align-items: center; /* 圖片置中 */
+  
+  width: 100%;
 }
 
 .sampleInner-down img{
