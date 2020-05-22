@@ -171,8 +171,8 @@ span.blue {
 
 
 .sampleOuter {
-  /* margin-left: 50px; */
-  /* margin-left: 50px; */
+  margin-left: 50px;
+  width: 900px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -184,6 +184,11 @@ span.blue {
   
   display: flex;
   flex-direction: row;
+}
+
+.WH {
+  margin-left: 50px;
+  width: 900px;
 }
 
 .sampleInner-top img{
@@ -219,7 +224,8 @@ span.blue {
 }
 
 .sampleInner-down img{
-  width: 100%;
+  width: 800px;
+  
 }
 
 
