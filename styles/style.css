@@ -130,14 +130,106 @@ h3.little-title {
 
 section p {
   font-size: 14px;
-  text-indent: 4em; /* 後退四字元 */
+  text-indent: 2em; /* 後退兩字元 */
+  line-height: 1.5;
 }
+
+.thirdOrder {
+  font-size: 14px;
+  text-indent: 4em; /* 後退兩字元 */
+  line-height: 1.5;
+}
+
+.inside {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.homeInfo {
+  width: 500px;
+}
+
+.homeImg img {
+  height: 250px; 
+}
+
+.homeImg {
+  flex-grow: 1;
+  
+  display: flex; /* 圖片置中 */
+  justify-content: center; /* 圖片置中 */
+  align-items: center; /* 圖片置中 */
+
+}
+
+span.blue {
+  color: blue;
+  font-weight: bold;
+}
+
+
+
+.sampleOuter {
+  /* margin-left: 50px; */
+  /* width: 400px; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sampleInner-top {
+  flex-grow: 1;
+  height: 350px;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.sampleInner-top img{
+  height: 250px;
+}
+
+.sampleInner-topL {
+  flex-grow: 1;
+  /* background-color: #888888; */
+  
+  display: flex; /* 圖片置中 */
+  justify-content: center; /* 圖片置中 */
+  align-items: center; /* 圖片置中 */
+}
+
+.sampleInner-topR {
+  flex-grow: 1;
+  /* background-color: #AAAAAA; */
+  
+  display: flex; /* 圖片置中 */
+  justify-content: center; /* 圖片置中 */
+  align-items: center; /* 圖片置中 */
+}
+
+.sampleInner-down {
+  flex-grow: 1;
+  height: 350px;
+  /* background-color: #EEEEEE; */
+  
+  display: flex; /* 圖片置中 */
+  justify-content: center; /* 圖片置中 */
+  align-items: center; /* 圖片置中 */
+}
+
+.sampleInner-down img{
+  height: 250px;
+}
+
+
 
 section ul {
   font-size: 14px;
   text-indent: 4em; /* 後退四字元 */
   list-style-type: upper-roman;
-  list-style-position: inside;
+  list-style-position: inside; /* 標號內縮對齊行頭 */
+  line-height: 1.5;
   
   margin: 0;
   padding: 0;
@@ -149,15 +241,16 @@ section ul {
   height: 200px;
   display: flex;
   flex-direction: row;
-  /* background-color: #CCCCCC; */
 }
 
-.Parrot-parent p {
-  text-indent: 0em;
+.tiny-title {
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
 }
 
 .Parrot-parent ul {
+  font-size: 14px;
   text-indent: 2em;
   /* text-align: center; */
   
@@ -173,6 +266,7 @@ section ul {
 }
 
 .info{
+  font-size: 14px;
   flex-grow: 1;
   height: 200px;
   
@@ -181,13 +275,13 @@ section ul {
 }
 
 
-img {
+.Parrot-parent img {
   width: 150px;
   height: 150px;
   opacity: 0.3;
 }
 
-img:hover {
+.Parrot-parent img:hover {
   width: 150px;
   height: 150px;
   opacity: 1.0;
