@@ -211,7 +211,7 @@ span.blue {
 .sampleInner-down {
   flex-grow: 1;
   height: 350px;
-  /* background-color: #EEEEEE; */
+  background-color: #EEEEEE;
   
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
@@ -219,7 +219,8 @@ span.blue {
 }
 
 .sampleInner-down img{
-  height: 250px;
+  /* height: 250px; */
+  width: 100%;
 }
 
 
