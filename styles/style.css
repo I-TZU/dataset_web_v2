@@ -172,7 +172,7 @@ span.blue {
 
 .sampleOuter {
   margin-left: 50px;
-  width: 900px;
+  width: 800px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -188,7 +188,7 @@ span.blue {
 
 .WH {
   margin-left: 50px;
-  width: 900px;
+  width: 800px;
 }
 
 .sampleInner-top img{
