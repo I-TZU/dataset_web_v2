@@ -171,8 +171,8 @@ span.blue {
 
 
 .sampleOuter {
-  margin-left: 50px;
-  width: 800px;
+  
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -186,46 +186,69 @@ span.blue {
   flex-direction: row;
 }
 
-.WH {
-  margin-left: 50px;
-  width: 750px;
-}
-
-.sampleInner-top img{
-  height: 250px;
-}
-
 .sampleInner-topL {
   flex-grow: 1;
-  background-color: #888888;
-  
-  display: flex; /* 圖片置中 */
-  justify-content: center; /* 圖片置中 */
-  align-items: center; /* 圖片置中 */
+  display: flex;
+  flex-direction: column;
 }
 
 .sampleInner-topR {
   flex-grow: 1;
-  background-color: #AAAAAA;
-  
-  display: flex; /* 圖片置中 */
-  justify-content: center; /* 圖片置中 */
-  align-items: center; /* 圖片置中 */
+  display: flex;
+  flex-direction: column;
 }
 
 .sampleInner-down {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
   height: 350px;
-  background-color: #EEEEEE;
-  
-  display: flex; /* 圖片置中 */
-  justify-content: center; /* 圖片置中 */
-  align-items: center; /* 圖片置中 */
 }
 
-.sampleInner-down img{
-  width: 750px;
-  
+.ori_iPhone {
+  flex-grow: 1;
+  background-image: url("../images/iPhone.png");
+  background-repeat: no-repeat;
+  /* background-color: #888888; */
+  background-size: contain;
+  background-position: center;
+}
+
+.ori_Nikon {
+  flex-grow: 1;
+  background-image: url("../images/Nikon.png");
+  background-repeat: no-repeat;
+  /* background-color: #AAAAAA; */
+  background-size: contain;
+  background-position: center;
+}
+
+.ori_Parrot {
+  flex-grow: 1;
+  background-image: url("../images/Parrot.png");
+  background-repeat: no-repeat;
+  /* background-color: #EEEEEE; */
+  background-size: contain;
+  background-position: center;
+  background-origin: border-box, content-box;
+}
+
+.lab_detection {
+  flex-grow: 1;
+  background-image: url("../images/detection.png");
+  background-repeat: no-repeat;
+  /* background-color: #888888; */
+  background-size: contain;
+  background-position: center;
+}
+
+.lab_tracking {
+  flex-grow: 1;
+  background-image: url("../images/tracking.png");
+  background-repeat: no-repeat;
+  /* background-color: #AAAAAA; */
+  background-size: contain;
+  background-position: center;
 }
 
 
