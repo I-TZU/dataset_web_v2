@@ -141,7 +141,6 @@ section p {
 }
 
 .inside {
-  width: 100%;
   margin-left: 25px;
   display: flex;
   flex-direction: row;
@@ -149,6 +148,7 @@ section p {
 
 .homeInfo {
   width: 500px;
+  /* flex-grow: 1; */
 }
 
 .homeImg img {
@@ -161,7 +161,6 @@ section p {
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
   align-items: center; /* 圖片置中 */
-
 }
 
 span.blue {
