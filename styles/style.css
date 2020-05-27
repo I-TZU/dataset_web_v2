@@ -93,7 +93,7 @@ div.fixed {
 
 .child {
   padding: 20px;
-  line-height: 1em;
+  line-height: 2;
 }
 
 #aside {
@@ -131,16 +131,17 @@ h3.little-title {
 section p {
   font-size: 14px;
   text-indent: 2em; /* 後退兩字元 */
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .thirdOrder {
   font-size: 14px;
   text-indent: 4em; /* 後退兩字元 */
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .inside {
+  width: 100%;
   margin-left: 25px;
   display: flex;
   flex-direction: row;
@@ -169,19 +170,23 @@ span.blue {
 }
 
 
+.appInfo {
+  width: 500px;
+  background-color: #888888;
+}
+
+
 
 .sampleOuter {
   
   width: 100%;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 .sampleInner-top {
   flex-grow: 1;
   height: 350px;
-  
   display: flex;
   flex-direction: row;
 }
@@ -203,6 +208,7 @@ span.blue {
   display: flex;
   flex-direction: column;
   height: 350px;
+  border-color: red;
 }
 
 .ori_iPhone {
@@ -230,7 +236,6 @@ span.blue {
   /* background-color: #EEEEEE; */
   background-size: contain;
   background-position: center;
-  background-origin: border-box, content-box;
 }
 
 .lab_detection {
@@ -258,7 +263,7 @@ section ul {
   text-indent: 4em; /* 後退四字元 */
   list-style-type: upper-roman;
   list-style-position: inside; /* 標號內縮對齊行頭 */
-  line-height: 1.5;
+  line-height: 2;
   
   margin: 0;
   padding: 0;
@@ -281,24 +286,22 @@ section ul {
 .Parrot-parent ul {
   font-size: 14px;
   text-indent: 2em;
-  /* text-align: center; */
+  line-height: 2;
+  /* background: #AAA; */
   
   display: inline-block; /* for垂直置中 */
-  line-height: 1.5; /* for垂直置中 */
-  /* background: #AAA; */
   vertical-align: middle; /* for垂直置中 */
 }
 
 .img {
   width: 150px;
-  height: 150px;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .info{
   font-size: 14px;
   flex-grow: 1;
-  height: 200px;
-  
   line-height: 200px; /* for垂直置中 */
   display: none;
 }
