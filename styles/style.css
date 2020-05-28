@@ -143,23 +143,22 @@ section p {
 .inside {
   margin-left: 25px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .homeInfo {
-  width: 500px;
+  /* width: 500px; */
   /* flex-grow: 1; */
 }
 
 .homeImg img {
-	
-  height: 250px; 
+  width: 600px; 
 }
 
 .homeImg {
   flex-grow: 1;
   padding: 20px;
-  background: #EEE;
+  /* background: #EEE; */
   display: flex; /* 圖片置中 */
   justify-content: center; /* 圖片置中 */
   align-items: center; /* 圖片置中 */
@@ -207,7 +206,7 @@ span.blue {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 250px;
   border-color: red;
 }
 
@@ -271,16 +270,40 @@ section ul {
 
 .Parrot-parent {
   margin-left: 50px;
-  width: 400px;
+  width: 500px;
   height: 200px;
   display: flex;
   flex-direction: row;
+}
+
+.img {
+  width: 200px;
 }
 
 .tiny-title {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+  margin-top: 0;
+}
+
+.imgDown {
+  text-align: center;
+}
+
+.info {
+  flex-grow: 1;
+  height: 200px;
+}
+
+.infoUp {
+  height: 50px;
+}
+
+.infoDown{
+  font-size: 14px;
+  line-height: 150px; /* for垂直置中 */
+  display: none;
 }
 
 .Parrot-parent ul {
@@ -293,24 +316,12 @@ section ul {
   vertical-align: middle; /* for垂直置中 */
 }
 
-.img {
-  width: 150px;
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
-.info{
-  font-size: 14px;
-  flex-grow: 1;
-  line-height: 200px; /* for垂直置中 */
-  display: none;
-}
-
 
 .Parrot-parent img {
   width: 150px;
   height: 150px;
   opacity: 0.3;
+  position: center;
 }
 
 .Parrot-parent img:hover {

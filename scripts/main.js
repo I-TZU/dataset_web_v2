@@ -30,7 +30,7 @@ function showInfo(evt, infoName) {
 
   var i, tabcontent, tablinks;
 
-  tabcontent = document.getElementsByClassName("info");
+  tabcontent = document.getElementsByClassName("infoDown");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
