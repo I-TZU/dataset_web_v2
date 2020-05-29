@@ -142,8 +142,6 @@ section p {
 
 .inside {
   margin-left: 25px;
-  display: flex;
-  flex-direction: column;
 }
 
 .homeInfo {
@@ -156,7 +154,6 @@ section p {
 }
 
 .homeImg {
-  flex-grow: 1;
   padding: 20px;
   /* background: #EEE; */
   display: flex; /* 圖片置中 */
